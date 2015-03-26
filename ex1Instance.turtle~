@@ -1,0 +1,14 @@
+prefix ns0: <http://www.labd.org/2015/cours/schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://www.labd.org/2015/cours/data#C4>
+	a ns0:Voiture ;
+	ns0:nom "C4" ;
+	ns0:Marque <http://www.labd.org/2015/cours/data#Citroen> .
+
+<http://www.labd.org/2015/cours/data#Citroen>
+	a ns0:Marque .
+	
+
+
+

@@ -1,0 +1,20 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sch: <http://www.labd.org/2015/exo1#> . 
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://www.labd.org/2015/cours/data#Societe>
+  a rdfs:Class ;
+  rdfs:comment "La classe societe" .
+
+<http://www.labd.org/2015/cours/data#dateCreation>
+  a rdfs:Property;
+  rdfs:domain exo1:Societe;
+  rdfs:range rdf:Literal .
+
+
+<http://www.labd.org/2015/cours/data#Citroen>
+	a rdf:Societe ;
+	sch:dateCreation "1991" .
+
+
+

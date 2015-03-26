@@ -1,0 +1,27 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://www.labd.org/2015/voitures/schema#Voiture>
+  a rdfs:Class ;
+  rdfs:comment "La classe voiture" .
+
+<http://www.labd.org/2015/voitures/schema#Marque>
+  a rdfs:Class ;
+  rdfs:comment "La classe marque" .
+
+<http://www.labd.org/2015/cours/schema#nom>
+  a rdfs:Property;
+  rdfs:domain <http://www.labd.org/2015/cours/schema#Voiture>
+  rdfs:range rdf:Literal .
+
+<http://www.labd.org/2015/cours/data#C4>
+	a rdfs:Voiture ;
+	rdfs:nom "C4" ;
+	rdfs:Marque <http://www.labd.org/2015/cours/data#Citroen> .
+
+<http://www.labd.org/2015/cours/data#Citroen>
+	a rdfs:Marque .
+	
+
+
+
