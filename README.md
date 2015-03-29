@@ -45,6 +45,19 @@ Exercice 3
 
 
 
+Exercice 4
+----------
+
+
+Tuteur encadre Stagiaire.
+Ali encadre Louis.
+
+
+
+
+
+
+
 
 
 
