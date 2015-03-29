@@ -1,0 +1,31 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sch: <http://www.labd.org/2015/exo2#> . 
+
+
+<http://www.labd.org/2015/voitures/schema#Personne>
+  a rdfs:Class ;
+  rdfs:comment "La classe personne" .
+
+
+<http://www.labd.org/2015/cours/schema#nom>
+  a rdfs:Property;
+  rdfs:domain <http://www.labd.org/2015/cours/schema#Personne>;
+  rdfs:range rdf:Literal .
+
+
+<http://www.labd.org/2015/cours/data#Boby>
+  a sch:Personne ;
+  sch:nom "Boby" .
+
+<http://www.labd.org/2015/cours/data#Leon>
+  a sch:Personne ;
+  sch:nom "Leon" .
+
+
+  <http://www.labd.org/2015/cours/data#penseMalade>
+
+
+
+
+

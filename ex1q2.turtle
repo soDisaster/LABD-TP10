@@ -8,9 +8,8 @@
 
 <http://www.labd.org/2015/cours/data#dateCreation>
   a rdfs:Property;
-  rdfs:domain exo1:Societe;
+  rdfs:domain <http://www.labd.org/2015/cours/schema#Societe>;
   rdfs:range rdf:Literal .
-
 
 <http://www.labd.org/2015/cours/data#Citroen>
 	a sch:Societe ;
