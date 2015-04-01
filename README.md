@@ -61,13 +61,13 @@ Exercice 4
 9. encadre a pour objet un Stagiaire
 10. Ali encadre Louis
 
-Les 5 Triplet inféré par RDF sont :
+Les 5 Triplets inférés par RDF sont :
 
-1. Class est de Type Class
-2. SubClass est une sous-classe de Class
-3. Type est de Type Class
-4. Property est de Type Class
-5. SubProperty est une sousclass de Property
+1. Type a pour sujet une Class
+2. SubClass a pour sujet une Class
+3. Domain a pour sujet une Class
+4. Range a pour sujet une Class
+5. SubProperty a pour sujet une Property
 
 
 Exercice 5
