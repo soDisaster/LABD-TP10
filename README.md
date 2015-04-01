@@ -64,10 +64,10 @@ Exercice 4
 Les 5 Triplets inférés par RDF sont :
 
 1. Type a pour sujet une Class
-2. SubClass a pour sujet une Class
+2. SubClass a pour sujet une SubClass of Class
 3. Domain a pour sujet une Class
 4. Range a pour sujet une Class
-5. SubProperty a pour sujet une Property
+5. SubProperty a pour sujet une SubProperty of Property
 
 
 Exercice 5

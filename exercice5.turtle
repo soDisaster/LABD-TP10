@@ -56,12 +56,15 @@
   rdfs:range rdf:Literal .
 
 
- <http://www.labd.org/2015/cours/schema#nombredeRemplacants>
+ <http://www.labd.org/2015/cours/schema#nombredeRemplacantsMinimum>
   a rdfs:Property;
   rdfs:domain <http://www.labd.org/2015/cours/schema#MatchDeBasket>;
   rdfs:range rdf:Literal .
 
-
+<http://www.labd.org/2015/cours/schema#nombredeRemplacantsMaximum>
+  a rdfs:Property;
+  rdfs:domain <http://www.labd.org/2015/cours/schema#MatchDeBasket>;
+  rdfs:range rdf:Literal .
 
 
 
@@ -83,7 +86,9 @@
   	 sch:tempsDuMatch "48 minutes" ;
   	 sch:regles "NBA" ;
   	 sch:nombreDeJoueursParEquipe "5" ;
-  	 sch:nombreDeRemplacants "5 à 7" .
+  	 sch:nombreDeRemplacantsMinimum "5" ;
+     sch:nombreDeRemplacantsMinimum "7" .
+
 
 
 
