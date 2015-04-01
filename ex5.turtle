@@ -1,0 +1,110 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sch: <http://www.labd.org/2015/exo5#> . 
+
+
+<http://www.labd.org/2015/cours/schema#nomDuSport>
+  a rdfs:Property;
+  rdfs:domain <http://www.labd.org/2015/cours/schema#SportCollectif>;
+  rdfs:range rdf:Literal .
+
+ <http://www.labd.org/2015/cours/data#Basket>
+  a sch: SportCollectif ;
+  sch:nom "BasketBall" .
+
+<http://www.labd.org/2015/cours/data#Football>
+  a sch: SportCollectif ;
+  sch:nomDuSport "Football" .
+
+
+
+<http://www.labd.org/2015/cours/schema#lieu>
+  a rdfs:Property;
+  rdfs:domain <http://www.labd.org/2015/cours/schema#Match>;
+  rdfs:range rdf:Literal .
+
+<http://www.labd.org/2015/cours/schema#tempsDuMatch>
+  a rdfs:Property;
+  rdfs:domain <http://www.labd.org/2015/cours/schema#Match>;
+  rdfs:range rdf:Literal .
+
+ <http://www.labd.org/2015/cours/schema#nombreDeJoueursParEquipe>
+  a rdfs:Property;
+  rdfs:domain <http://www.labd.org/2015/cours/schema#Match>;
+  rdfs:range rdf:Literal .
+
+
+
+
+ <http://www.labd.org/2015/cours/schema#nombreDeMiTemps>
+  a rdfs:Property;
+  rdfs:domain <http://www.labd.org/2015/cours/schema#MatchDeFoot>;
+  rdfs:range rdf:Literal .
+
+ <http://www.labd.org/2015/cours/schema#dureeMiTemps>
+  a rdfs:Property;
+  rdfs:domain <http://www.labd.org/2015/cours/schema#MatchDeFoot>;
+  rdfs:range rdf:Literal .
+
+
+
+
+
+ <http://www.labd.org/2015/cours/schema#regles>
+  a rdfs:Property;
+  rdfs:domain <http://www.labd.org/2015/cours/schema#MatchDeBasket>;
+  rdfs:range rdf:Literal .
+
+
+ <http://www.labd.org/2015/cours/schema#nombredeRemplacants>
+  a rdfs:Property;
+  rdfs:domain <http://www.labd.org/2015/cours/schema#MatchDeBasket>;
+  rdfs:range rdf:Literal .
+
+
+
+
+
+  <http://www.labd.org/2015/sport/schema#MatchDeFoot>
+  	 sch:lieu "stade" ;
+  	 sch:tempsDuMatch "90 minutes" ;
+  	 sch:nombreDeMiTemps "2" ;
+  	 sch:dureeMiTemps "45 minutes" ;
+  	 sch:nombreDeJoueursParEquipe "11" .
+
+   <http://www.labd.org/2015/sport/schema#MatchDeBasket>
+  	 sch:lieu "terrain" ;
+  	 sch:tempsDuMatch "40 minutes" ;
+  	 sch:regles "FIBA" ;
+  	 sch:nombreDeJoueursParEquipe "5" .
+
+   <http://www.labd.org/2015/sport/schema#MatchDeBasket>
+  	 sch:lieu "terrain" ;
+  	 sch:tempsDuMatch "48 minutes" ;
+  	 sch:regles "NBA" ;
+  	 sch:nombreDeJoueursParEquipe "5" ;
+  	 sch:nombreDeRemplacants "5 à 7" .
+
+
+
+
+
+
+<http://www.labd.org/2015/sport/schema#Joueur>
+  a rdfs:Class .
+
+  <http://www.labd.org/2015/sport/schema#JoueurDeFoot>
+  rdfs:subClassOf rdfs:Joueur .
+
+  <http://www.labd.org/2015/sport/schema#JoueurDeBasket>
+  rdfs:subClassOf rdfs:Joueur .
+
+<http://www.labd.org/2015/sport/schema#Sport>
+  a rdfs:Class .
+
+<http://www.labd.org/2015/sport/schema#SportCollectif>
+  rdfs:subClassOf rdfs:Sport .
+
+
+
+
