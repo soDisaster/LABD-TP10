@@ -70,7 +70,10 @@ Les 5 Triplet inféré par RDF sont :
 5. SubProperty est une sousclass de Property
 
 
+Exercice 5
+----------
 
+Fichier exercice5.turtle
 
 
 
