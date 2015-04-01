@@ -9,11 +9,11 @@
   rdfs:range rdf:Literal .
 
  <http://www.labd.org/2015/cours/data#Basket>
-  a sch: SportCollectif ;
+  a sch:SportCollectif ;
   sch:nom "BasketBall" .
 
 <http://www.labd.org/2015/cours/data#Football>
-  a sch: SportCollectif ;
+  a sch:SportCollectif ;
   sch:nomDuSport "Football" .
 
 
@@ -71,7 +71,7 @@
   <http://www.labd.org/2015/sport/schema#MatchDeFoot>
   	 sch:lieu "stade" ;
   	 sch:tempsDuMatch "90 minutes" ;
-  	 sch:nombreDeMiTemps "2" ;
+  	 sch:nombreDeMiTemps "oui" ;
   	 sch:dureeMiTemps "45 minutes" ;
   	 sch:nombreDeJoueursParEquipe "11" .
 
@@ -87,7 +87,7 @@
   	 sch:regles "NBA" ;
   	 sch:nombreDeJoueursParEquipe "5" ;
   	 sch:nombreDeRemplacantsMinimum "5" ;
-     sch:nombreDeRemplacantsMinimum "7" .
+     sch:nombreDeRemplacantsMaximum "7" .
 
 
 
