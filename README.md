@@ -37,25 +37,33 @@ Exercice 2
 "Boby pense que Léon est malade"
 
 
-Fichier ex2.turtle.
+Fichier exercice2.turtle.
 
 
 Exercice 3 
 ----------
+Listes
 
+Fichier exercice3.turtle.
 
 
 Exercice 4
 ----------
 
+1.personne est de type class
+2.stagiaire est de type class
+3.stagiaire est une sousclass de personne
+4.Tuteur est de type class
+5.Tuteur est une sousclass de personne
+6.encadre est de type property
+7.encadre a pour sujet Tuteur
+8.encadre est une sous-propriété de connus (friend of a friend)
+9.encadre a pour objet un Stagiaire
+10.Ali encadre Louis
 
-Tuteur encadre Stagiaire.
-Ali encadre Louis.
+Les 5 propriété inférée par RDF sont :
 
-
-
-
-
+En cours
 
 
 
