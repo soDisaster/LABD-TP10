@@ -6,7 +6,7 @@
 a rdfs:Class ;
 rdfs:comment "La classe personne" .
 
-<http://www.labd.org/2015/cours/schema#nom>
+<http://www.labd.org/2015/cours/schema##nom>
 a rdfs:Property;
 rdfs:domain <http://www.labd.org/2015/cours/schema#personne>;
 rdfs:range rdf:Literal .
