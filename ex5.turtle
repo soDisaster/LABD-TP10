@@ -88,8 +88,6 @@
 
 
 
-
-
 <http://www.labd.org/2015/sport/schema#Joueur>
   a rdfs:Class .
 
